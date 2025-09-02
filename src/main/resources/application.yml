@@ -1,0 +1,21 @@
+spring:
+  application.name: ai-service
+  ai:
+    ollama:
+      base-url: http://localhost:11431
+#      chat.model: gemma3:12b-it-qat
+      chat.model: gemma3:4b-it-q4_K_M
+      chat:
+        options:
+          repeat-last-n: 10
+  datasource:
+    url: jdbc:postgresql://localhost:5434/ragdb
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+
