@@ -3,7 +3,7 @@ package zavorotnii.dmytro.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import zavorotnii.dmytro.model.Chat;
+import zavorotnii.dmytro.model.chat.Chat;
 
 import java.util.List;
 import java.util.Optional;

@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
-import zavorotnii.dmytro.model.Chat;
-import zavorotnii.dmytro.model.ChatEntry;
-import zavorotnii.dmytro.model.Role;
+import zavorotnii.dmytro.model.chat.Chat;
+import zavorotnii.dmytro.model.chat.ChatEntry;
+import zavorotnii.dmytro.model.chat.Role;
 import zavorotnii.dmytro.repository.ChatRepository;
 
 import java.util.List;

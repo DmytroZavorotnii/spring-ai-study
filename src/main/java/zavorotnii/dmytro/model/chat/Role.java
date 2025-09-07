@@ -1,4 +1,4 @@
-package zavorotnii.dmytro.model;
+package zavorotnii.dmytro.model.chat;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
